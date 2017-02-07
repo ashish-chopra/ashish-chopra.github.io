@@ -1,0 +1,29 @@
+{
+  "name": "ashish-chopra.github.io",
+  "version": "1.0.0",
+  "description": "It's about me!",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashish-chopra/ashish-chopra.github.io.git"
+  },
+  "keywords": [
+    "personal",
+    "website",
+    "cv",
+    "ashish-chopra"
+  ],
+  "author": "Ashish Chopra (sendtoashishchopra@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashish-chopra/ashish-chopra.github.io/issues"
+  },
+  "homepage": "https://github.com/ashish-chopra/ashish-chopra.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1"
+  }
+}
