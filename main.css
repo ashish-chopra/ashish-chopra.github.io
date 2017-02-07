@@ -1,52 +1,82 @@
 body {
-    font-size: 14px;
-    font-family: 'Open Sans';
-}
-
-.header {
-    margin-top: 20px;
-    padding-left: 110px;
-}
-
-.title {
-    font-size: 2.5rem;
-    font-weight: 600;
-    color:#ffcc66;
-}
-.contact {
-    margin-top: 3px;
-    font-size: 0.75rem;
-}
-
-.heading {
-    padding-left: 110px;
-    font-size: 1.2rem;
-    color: #898;
-    font-weight: 500;
-    font-family: Georgia;
-}
-.section {
-   clear: both;
-   margin-top: 50px;
-   max-width: 600px;
-
-}
-
-.entry {
-    margin-top: 2px;
-    position: relative;
-    clear: both;
-}
-
-.year {
-    float: left;
-    width: 100px;
+    margin-top: 1em;
+    font-size: 18px;
     font-weight: 300;
-    text-align: right;
-    color:#999;
-
 }
 
-.item {
-    padding-left: 110px;
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.name-column {
+    clear: both;
+    width: 330px;
+    padding: 30px;
+    margin: 0 10px 10px 0;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #0092bf;
+    float:left;
+    height: 126px;
+    position:relative;
+}
+
+.name-column > .name {
+    float: left;
+    width: 180px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.3rem;
+}
+.photo {
+    position:absolute;
+    bottom:18px;
+    right:20px;
+    height:150px;
+}
+.gravatar {
+    border-radius: 50%;
+    margin:0;
+}
+
+#main > section {
+    
+}
+.column {
+    border: 1px dashed #bbb;
+    padding: 29px; 
+    float: left;
+    margin: 0 10px 10px 0;
+}
+.header-column {
+    width: 500px;
+    height: 126px;
+}
+.half-column {
+    width: 415px;
+    height: 470px;
+   
+}
+
+.row:before, .row:after {
+    clear:both;
+    content: " ";
+    display: table;
+}
+
+.btn {
+    -webkit-appearance: none;
+     -moz-appearance: none;
+     outline: none;
+     border: none;
+     border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 4px 4px;
+}
+
+btn-default {
+
 }
