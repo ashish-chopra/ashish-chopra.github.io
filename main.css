@@ -3,7 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     box-sizing: border-box;
     color: #444;
 }
@@ -190,7 +190,7 @@ h4 {
 .grid-area-item {
 
    padding: 10px;
-   font-size: 0.8rem;
+   font-size: 0.9rem;
    text-align: center;
     width: 60px;
 
