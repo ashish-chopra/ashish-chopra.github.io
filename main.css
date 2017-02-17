@@ -1,12 +1,35 @@
-body {
-    margin-top: 1em;
+
+html, body {
+    margin: 0;
+    padding: 0;
     font-size: 18px;
     font-weight: 300;
+    box-sizing: border-box;
+    color: #333;
+}
+
+body {
+     margin-top: 1em;
 }
 
 .container {
     width: 1000px;
     margin: 0 auto;
+}
+
+.column {
+    border: 1px dashed #bbb;
+    padding: 29px; 
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.no-border {
+    border: none;
+}
+
+.no-padding {
+    padding: 0;
 }
 
 .name-column {
@@ -24,35 +47,24 @@ body {
     position:relative;
 }
 
-.name-column > .name {
+.name-column .name {
     float: left;
     width: 180px;
     text-decoration: none;
     color: #fff;
     letter-spacing: 0.3rem;
 }
-.photo {
+
+.name-column .photo {
     position:absolute;
     bottom:18px;
     right:20px;
     height:150px;
 }
+
 .gravatar {
     border-radius: 50%;
     margin:0;
-}
-
-.virtual-column {
-    float: left;
-    margin: 0 10px 10px 0;
-}
-
-.column {
-    border: 1px dashed #bbb;
-    padding: 29px; 
-    float: left;
-    margin: 0 10px 10px 0;
-     
 }
 
 .grid-column {
@@ -70,9 +82,28 @@ body {
     height: 126px;
 }
 
+.full-column {
+    width: 899px;
+    min-height: 200px;
+}
+
 .half-column {
     width: 415px;
     height: 470px;
+}
+/* quarter is wrong name. Need to give a right name */
+.quarter-column {
+    width: 415px;
+    height: 410px;
+    padding: 29px;
+    border: 1px dashed #bbb;
+}
+
+.column-heading {
+    color: #f14a29;
+    letter-spacing: 2px;
+    margin-top:0;
+    margin-bottom: 0.5rem;  
 }
 
 .grid-item {
@@ -81,24 +112,46 @@ body {
     padding: 15px;
 }
 
-.grid-item  a, 
+a, 
 a:link, 
 a:active,
-a:visited,
+.a:visited,
 a:hover {
     text-decoration: none;
     color: inherit;
 }
 
-.quarter-column {
+
+.more-than-half-column {
     width: 415px;
-    height: 410px;
-    padding: 29px;
-    border: 1px dashed #bbb;
+    height: 500px;
 }
 
 .list {
-    padding-left: 5px;
+   padding-left:15px;
+}
+
+.project-list {
+    padding-left: 0px;
+    list-style-type: none;
+}
+.project-list li {
+    margin-top: 20px;
+}
+
+.link{
+    color: #0092bf;
+}
+
+.sublink {
+    border-bottom: 1px dashed #bbb;
+}
+.link:hover {
+    text-decoration: underline;
+}
+
+h4 {
+    margin-bottom: 6px;
 }
 
 .row:before, .row:after {
@@ -108,13 +161,7 @@ a:hover {
 }
 
 
-.column-title {
-    color: #f14a29;
-    letter-spacing: 2px;
-    margin-top:0;
-    margin-bottom: 0.5rem;
-    
-}
+
 
 .column-body {
     font-size: 14px;
@@ -130,4 +177,69 @@ a:hover {
 
 .sub-title {
     font-size: 0.8em;
+}
+
+.grid-area {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.grid-area-item {
+
+   padding: 10px;
+   font-size: 0.8rem;
+   text-align: center;
+    width: 60px;
+
+}
+
+.grid-area-item i {
+    font-size: 30px;
+}
+
+footer {
+    border-top: 1px dashed #bbb;
+    margin: 0;
+    font-size: 0.7rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.small-column {
+    width: 415px;
+    max-height: 100px;
+}
+
+h6 {
+    margin-bottom: 5px;
+}
+
+.devicon {
+    display: block;
+    height: 41px;
+}
+
+.strip {
+    display: block;
+    height: 30px;
+    margin-bottom: 3px;
+}
+
+.even-more-column {
+    height: 600px;
+}
+
+.my-illustrator{
+    font-family: "devicons";
+}  
+.my-illustrator:before{ 
+    content:"\e6b4";
+}
+
+.grid-area-item:hover {
+    background-color: #0092bf;
+    color: white;
+    cursor: pointer;
 }
