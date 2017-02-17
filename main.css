@@ -192,7 +192,7 @@ h4 {
    padding: 10px;
    font-size: 0.9rem;
    text-align: center;
-    width: 60px;
+    min-width: 60px;
 
 }
 
@@ -201,11 +201,12 @@ h4 {
 }
 
 footer {
-    border-top: 1px dashed #bbb;
     margin: 0;
     font-size: 0.7rem;
-    padding: 10px;
+    padding: 12px;
     text-align: center;
+    background: #0092bf;
+    color:white;
 }
 
 .small-column {
@@ -214,7 +215,8 @@ footer {
 }
 
 h5 {
-    margin-bottom: 5px;
+    margin: 15px 0px;
+    /*margin-top: 15px;*/
 }
 
 .devicon {
@@ -240,5 +242,6 @@ h5 {
 }
 
 .separator {
+    border:none;
     border-bottom: 1px dashed #bbb;
 }
