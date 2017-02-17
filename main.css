@@ -5,7 +5,7 @@ html, body {
     font-size: 18px;
     font-weight: 300;
     box-sizing: border-box;
-    color: #333;
+    color: #444;
 }
 
 body {
@@ -89,12 +89,12 @@ body {
 
 .half-column {
     width: 415px;
-    height: 470px;
+    height: 600px;
 }
 /* quarter is wrong name. Need to give a right name */
 .quarter-column {
     width: 415px;
-    height: 410px;
+    height: 540px;
     padding: 29px;
     border: 1px dashed #bbb;
 }
@@ -122,9 +122,9 @@ a:hover {
 }
 
 
-.more-than-half-column {
+.three-fourth-column {
     width: 415px;
-    height: 500px;
+    height: 630px;
 }
 
 .list {
@@ -139,14 +139,14 @@ a:hover {
     margin-top: 20px;
 }
 
-.link{
+a.link{
     color: #0092bf;
 }
 
-.sublink {
+a.sublink {
     border-bottom: 1px dashed #bbb;
 }
-.link:hover {
+a.link:hover {
     text-decoration: underline;
 }
 
@@ -164,7 +164,8 @@ h4 {
 
 
 .column-body {
-    font-size: 14px;
+    font-size: 0.9rem;
+    line-height: 1.45;
 }
 
 .selectable:hover {
@@ -231,12 +232,6 @@ h6 {
     height: 600px;
 }
 
-.my-illustrator{
-    font-family: "devicons";
-}  
-.my-illustrator:before{ 
-    content:"\e6b4";
-}
 
 .grid-area-item:hover {
     background-color: #0092bf;
