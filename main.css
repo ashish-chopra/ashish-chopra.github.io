@@ -3,7 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     box-sizing: border-box;
     color: #444;
 }
@@ -139,7 +139,7 @@ a:hover {
     margin-top: 20px;
 }
 
-a.link{
+.link, a.link{
     color: #0092bf;
 }
 
@@ -213,7 +213,7 @@ footer {
     max-height: 100px;
 }
 
-h6 {
+h5 {
     margin-bottom: 5px;
 }
 
@@ -237,4 +237,8 @@ h6 {
     background-color: #0092bf;
     color: white;
     cursor: pointer;
+}
+
+.separator {
+    border-bottom: 1px dashed #bbb;
 }
