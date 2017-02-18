@@ -245,3 +245,24 @@ h5 {
     border:none;
     border-bottom: 1px dashed #bbb;
 }
+
+/*@media screen and (max-width:500px) {
+
+    html, body {
+        width: 100vw;
+        font-size: 14px;
+    }
+    .name-column {
+        float:none;
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+    .column {
+        float:none;
+        width: 100%;
+    }*/
+
+
+}
