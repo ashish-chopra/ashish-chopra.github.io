@@ -246,23 +246,43 @@ h5 {
     border-bottom: 1px dashed #bbb;
 }
 
-/*@media screen and (max-width:500px) {
-
+@media screen and (max-width:500px) {
+    
     html, body {
-        width: 100vw;
-        font-size: 14px;
-    }
-    .name-column {
-        float:none;
         width: 100%;
     }
     .container {
         width: 100%;
+        margin:0;
     }
+
+    .name-column {
+        float:none;
+        width: auto;
+        margin: 0;
+    }
+    
     .column {
         float:none;
         width: 100%;
-    }*/
+    }
 
+    .header-column {
+        width: auto;
+        margin: 0;
+    }
 
+    .half-column {
+        width: auto;
+        margin: 0;
+        height:auto;
+    }
+    .quarter-column {
+        width: auto;
+        margin: 0;
+    }
+    .full-column {
+        width: auto;
+        margin: 0;
+    }
 }
