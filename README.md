@@ -2,8 +2,8 @@
 This repository holds the content published as my personal webpage at [http://ashish-chopra.github.io](http://ashish-chopra.github.io).
 
 # Attributions
-Well, i have consulted many web pages around the world to settle on this design. Thanks to all of them. 
-I will keep adding their names here.
+Well, i have researched many web pages around the web to settle on design and linguistics.
+Thank you world wide web for that!
 
 # License
 MIT
