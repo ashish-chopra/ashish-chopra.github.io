@@ -9,6 +9,17 @@
     <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <link rel="stylesheet" href="main.css">
+    <script>
+        window.onload = function () {
+            if (screen.width < 500) {
+                var header = document.querySelector('.header-column');
+                var contactLinks = document.querySelector('.grid-column');
+                var clonedLinks = contactLinks.cloneNode(true);
+                contactLinks.remove();
+               header.parentNode.insertBefore(clonedLinks, header);
+            }
+        };
+    </script>
 </head>
 
 <body>
@@ -21,8 +32,8 @@
                 </a>
             </h1>
             <section class="column header-column">
-                I build awesome things &amp; new experiences for people who use web in HTML, CSS and JavaScript. When i am free, i explore the nature of reality, teach
-                kids &amp; do urban sketching in watercolors.
+                I build awesome things &amp; new experiences for people who use web in HTML, CSS and JavaScript. When i am free, i explore
+                the nature of reality, teach kids &amp; do urban sketching in watercolors.
             </section>
         </header>
         <div id="main" class="row">
@@ -58,6 +69,7 @@
                     </ul>
                 </div>
             </section>
+
             <section class="column no-border no-padding grid-column">
                 <a class="grid-item selectable" href="mailto://sendtoashishchopra@gmail.com" title="send me an email"><i class="fa fa-envelope"></i></a>
                 <a class="grid-item selectable" href="https://github.com/ashish-chopra" title="Checkout my GitHub projects" target="_blank"><i class="fa fa-github"></i></a>
@@ -76,11 +88,11 @@
                         MOOCs Stanford University (Coursera)
                     </h4>
                     <ul class="list">
-                        <li>CS229 — <a href="https://www.coursera.org/learn/machine-learning" target="_blank" class="sublink">Machine Learning</a>  (90.8%)</li>
+                        <li>CS229 — <a href="https://www.coursera.org/learn/machine-learning" target="_blank" class="sublink">Machine Learning</a>                            (90.8%)</li>
                         <li>CS106A — <a href="https://see.stanford.edu/Course/CS106A" target="_blank" class="sublink">Programming Methodology</a></li>
-                        <li>CS147 — <a href="https://www.coursera.org/learn/human-computer-interaction" target="_blank" class="sublink">Introduction to Human Computer Interaction</a> (88.5%)</li>
-                        <li><a href="http://online.stanford.edu/course/design-thinking-action-lab" target="_blank" class="sublink">Design Thinking Action Lab</a> (no score)</li>
-                        <li><a href="https://www.coursera.org/learn/research-methods" target="_blank" class="sublink">Understanding Research Methods</a> (75%)</li>
+                        <li>CS147 — <a href="https://www.coursera.org/learn/human-computer-interaction" target="_blank" class="sublink">Introduction to Human Computer Interaction</a>                            (88.5%)</li>
+                        <li><a href="http://online.stanford.edu/course/design-thinking-action-lab" target="_blank" class="sublink">Design Thinking Action Lab</a>                            (no score)</li>
+                        <li><a href="https://www.coursera.org/learn/research-methods" target="_blank" class="sublink">Understanding Research Methods</a>                            (75%)</li>
                         <li><a href="http://online.stanford.edu/course/writing-in-the-sciences" target="_blank" class="sublink">Writing in the Sciences</a></li>
                     </ul>
 
@@ -105,8 +117,8 @@
                         <p>
                             A day in my life as prototype developer involves talking to wide range of people (engineers, testers, developers, users,
                             service operators) to get insights into the problems i am working on and conceptualize their
-                            solutions by drawing paper prototypes. I then, convert these low-cost prototypes to  working
-                            models in HTML, CSS, JS, Angular and conduct experiments to eventually derive useful conclusions.
+                            solutions by drawing paper prototypes. I then, convert these low-cost prototypes to working models
+                            in HTML, CSS, JS, Angular and conduct experiments to eventually derive useful conclusions.
                         </p>
                         <p>
                             Generally, we <em>'prototypers'</em> do lot of literature surveys, brainstorming sessions, design
@@ -133,19 +145,21 @@
                 <h3 class="column-heading">Teaching</h3>
                 <div class="column-body">
                     <p>I love teaching and being taught!</p>
-                    <p>That's why, i conducted instructor-led training course on "Adobe Flex Fundamentals" and
-                        hands-on workshop on "Angular JS &amp; Bootstrap" for people in Ericsson.
+                    <p>That's why, i conducted instructor-led training course on "Adobe Flex Fundamentals" and hands-on workshop
+                        on "Angular JS &amp; Bootstrap" for people in Ericsson.
                     </p>
                     <p>
-                        Even on weekends, i teach kids basic literacy in Hindi, English and Mathematics.
-                        But i super enjoy taking an art class and teaching different art forms to them.
+                        Even on weekends, i teach kids basic literacy in Hindi, English and Mathematics. But i super enjoy taking an art class and
+                        teaching different art forms to them.
                     </p>
                     <p>
-                        And, when i do not get such opportunities, i love being taught. I participate in many technology and non-technology courses online on
-                        Coursera, Udacity, Udemy and lunch time hobbyist courses on Skillshare.
+                        And, when i do not get such opportunities, i love being taught. I participate in many technology and non-technology courses
+                        online on Coursera, Udacity, Udemy and lunch time hobbyist courses on Skillshare.
                     </p>
                     <p>
-                        At present, i am doing a certification in <a href="https://en.wikipedia.org/wiki/Art_therapy" target="_blank" class="link">Art Therapy</a> :)
+                        At present, i am doing a certification in
+                        <a href="https://en.wikipedia.org/wiki/Art_therapy" target="_blank"
+                            class="link">Art Therapy</a> :)
                     </p>
                 </div>
             </section>
@@ -271,7 +285,8 @@
                         watercolors etc.
                     </p>
                     <p>
-                        Recently, we received <em>Kalam Goodness Award</em> from Dr. APJ Abdul Kalam Centre, Delhi for this initiative.
+                        Recently, we received <em>Kalam Goodness Award</em> from Dr. APJ Abdul Kalam Centre, Delhi for this
+                        initiative.
                     </p>
                 </div>
             </section>
