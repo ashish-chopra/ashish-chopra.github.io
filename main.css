@@ -1,15 +1,17 @@
-
 html, body {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Open Sans';
     font-size: 18px;
     font-weight: 500;
     box-sizing: border-box;
     color: #444;
-}
-
-body {
-     margin-top: 1em;
+    margin-top: 1em;
+    width: 100%;
+    height:100%;
 }
 
 .container {
@@ -122,11 +124,6 @@ a:hover {
 }
 
 
-.three-fourth-column {
-    width: 415px;
-    height: 630px;
-}
-
 .list {
    padding-left:15px;
 }
@@ -159,9 +156,6 @@ h4 {
     content: " ";
     display: table;
 }
-
-
-
 
 .column-body {
     font-size: 0.9rem;
@@ -209,29 +203,10 @@ footer {
     color:white;
 }
 
-.small-column {
-    width: 415px;
-    max-height: 100px;
-}
 
 h5 {
     margin: 15px 0px;
     /*margin-top: 15px;*/
-}
-
-.devicon {
-    display: block;
-    height: 41px;
-}
-
-.strip {
-    display: block;
-    height: 30px;
-    margin-bottom: 3px;
-}
-
-.even-more-column {
-    height: 600px;
 }
 
 
