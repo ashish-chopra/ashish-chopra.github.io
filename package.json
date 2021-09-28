@@ -4,7 +4,8 @@
   "description": "It's about me!",
   "main": "index.js",
   "scripts": {
-    "start": "gulp serve"
+    "start": "gulp serve",
+    "serve": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,8 @@
   "devDependencies": {
     "browser-sync": "^2.18.7",
     "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
   }
 }
